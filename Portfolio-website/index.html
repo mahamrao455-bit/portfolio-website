@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">Maham.dev</div>
+
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+  <nav id="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+  <div class="hero-content">
+
+    <p class="tag">👋 Welcome to my portfolio</p>
+
+    <h1>
+      I’m <span>Maham</span><br/>
+      <span id="typing"></span>
+    </h1>
+
+    <p class="desc">
+      I build modern, responsive and aesthetic web experiences.
+    </p>
+
+    <div class="buttons">
+      <button class="primary">Download CV</button>
+      <button class="secondary">View Projects</button>
+    </div>
+
+  </div>
+
+  <div class="glow-circle"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>I am learning Web Development, Graphic Design and Video Editing.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+
+  <p>HTML</p>
+  <div class="bar"><div class="fill html"></div></div>
+
+  <p>CSS</p>
+  <div class="bar"><div class="fill css"></div></div>
+
+  <p>JavaScript</p>
+  <div class="bar"><div class="fill js"></div></div>
+</section>
+
+<!-- PROJECTS (CONNECTED) -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="grid">
+
+    <a class="card" href="admin-dashboard/index.html" target="_blank">
+      🧑‍💼 Admin Dashboard
+    </a>
+
+    <a class="card" href="analytics-dashboard/index.html" target="_blank">
+      📊 Analytics Dashboard
+    </a>
+
+    <a class="card" href="korean-website/index.html" target="_blank">
+      🏢 Korean Website
+    </a>
+
+    <a class="card" href="ecommerce-website/index.html" target="_blank">
+      🛒 E-Commerce Store
+    </a>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name"/>
+    <input type="email" placeholder="Your Email"/>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit" class="primary">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Maham.dev</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

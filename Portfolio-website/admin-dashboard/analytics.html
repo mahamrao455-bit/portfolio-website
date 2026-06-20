@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analytics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h2 class="logo">NovaPanel</h2>
+
+    <a href="index.html">Dashboard</a>
+    <a href="users.html">Users</a>
+    <a href="analytics.html">Analytics</a>
+    <a href="orders.html">Orders</a>
+    <a href="settings.html">Settings</a>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- TOPBAR -->
+    <div class="topbar">
+      <h3>Analytics Overview</h3>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats">
+      <div class="stat-card">Visitors <h3>24.5K</h3></div>
+      <div class="stat-card">Bounce Rate <h3>32%</h3></div>
+      <div class="stat-card">Conversions <h3>4.8%</h3></div>
+      <div class="stat-card">Revenue <h3>$18K</h3></div>
+    </div>
+
+    <!-- BIG CHART AREA -->
+    <div class="chart-box">
+      <h3>Traffic Growth</h3>
+      <canvas id="chart"></canvas>
+    </div>
+
+    <!-- INSIGHTS -->
+    <div class="activity">
+      <h3>Insights</h3>
+      <ul>
+        <li>📈 Traffic increased by 18% this week</li>
+        <li>🛒 Sales peak at evening hours</li>
+        <li>📱 70% users are mobile visitors</li>
+        <li>🌍 Top country: Pakistan</li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
