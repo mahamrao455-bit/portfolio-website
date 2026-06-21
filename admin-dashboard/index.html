@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova Admin Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2 class="logo">NovaPanel</h2>
+
+    <a href="dashboard.html">🏠 Dashboard</a>
+    <a href="users.html">👤 Users</a>
+    <a href="analytics.html">📊 Analytics</a>
+    <a href="orders.html">🛒 Orders</a>
+    <a href="settings.html">⚙ Settings</a>
+    <a href="logout.html">🚪 Logout</a>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <input type="text" placeholder="Search anything...">
+      <div class="profile">Admin</div>
+    </div>
+
+    <!-- STATS -->
+    <section class="stats">
+      <div class="stat-card">Users <h3>1,240</h3></div>
+      <div class="stat-card">Revenue <h3>$18,500</h3></div>
+      <div class="stat-card">Orders <h3>320</h3></div>
+      <div class="stat-card">Growth <h3>+24%</h3></div>
+    </section>
+
+    <!-- CHART + ACTIVITY -->
+    <section class="middle">
+
+      <div class="chart-box">
+        <h3>Performance Chart</h3>
+        <canvas id="chart"></canvas>
+      </div>
+
+      <div class="activity">
+        <h3>Recent Activity</h3>
+        <ul>
+          <li>User A signed up</li>
+          <li>Order #123 placed</li>
+          <li>Payment received</li>
+          <li>New user registered</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- TABLE -->
+    <section class="table-section">
+      <h3>Recent Orders</h3>
+
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>User</th>
+          <th>Status</th>
+          <th>Amount</th>
+        </tr>
+
+        <tr>
+          <td>#101</td>
+          <td>Ali</td>
+          <td>Paid</td>
+          <td>$120</td>
+        </tr>
+
+        <tr>
+          <td>#102</td>
+          <td>Sara</td>
+          <td>Pending</td>
+          <td>$90</td>
+        </tr>
+
+        <tr>
+          <td>#103</td>
+          <td>John</td>
+          <td>Shipped</td>
+          <td>$300</td>
+        </tr>
+
+      </table>
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
